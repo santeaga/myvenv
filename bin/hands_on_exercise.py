@@ -14,7 +14,12 @@ print(pi, type(pi))
 # TODO: Write a conditional to print out if `i` is less than or greater than 50
 i = random.randint(0, 100)
 
-if i 
+
+if i < 50:
+    print("i =", i, "and i is less than 50")
+elif i > 50:
+    print("i =", i, "and i greater than 50")
+    
 
 # TODO: Write a conditional that prints the color of the picked fruit
 picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
