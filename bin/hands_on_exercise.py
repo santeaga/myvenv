@@ -34,11 +34,14 @@ elif picked_fruit == 'banana':
 # TODO: Write a function that multiplies two numbers and returns the result
 # Define the function here.
 
-
+def multiplies(a, b):
+    return(a * b)
+    
 # TODO: Now call the function a few times to calculate the following answers
 
-print("12 x 96 =",)
+print("12 x 96 =", multiplies(12,96))
 
-print("48 x 17 =",)
+print("48 x 17 =", multiplies(48, 17))
 
-print("196523 x 87323 =",)
+print("196523 x 87323 =", multiplies(196523, 87323))
+
