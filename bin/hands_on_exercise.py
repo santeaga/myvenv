@@ -24,6 +24,12 @@ elif i > 50:
 # TODO: Write a conditional that prints the color of the picked fruit
 picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
 
+if picked_fruit == 'orange':
+    print("The orange is orange")
+elif picked_fruit == 'strawberry':
+    print("The strawberry is red")
+elif picked_fruit == 'banana':
+    print("The banana is yellow")
 
 # TODO: Write a function that multiplies two numbers and returns the result
 # Define the function here.
